@@ -1,0 +1,18 @@
+.full-width-carousel {
+  width: 100wh;
+  max-height: 300px;
+  margin-bottom: 50px;
+}
+
+.carousel-item {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}

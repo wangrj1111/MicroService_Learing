@@ -1,0 +1,53 @@
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-item h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.book-item p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.book-item button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+
+.book-item button:hover {
+  background-color: #0056b3;
+}
+
+.book-item button:last-child {
+  background-color: #dc3545;
+}
+
+.book-item button:last-child:hover {
+  background-color: #a71d2a;
+}
+
+.book-item .edit-mode input {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.book-item .edit-mode input:focus {
+  border-color: #007bff;
+}

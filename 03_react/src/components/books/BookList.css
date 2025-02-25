@@ -1,0 +1,32 @@
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.book-list .book-item {
+  background: white;
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.book-list .book-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-list .book-item .view-mode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-list .book-item .edit-mode {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

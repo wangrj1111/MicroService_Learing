@@ -1,0 +1,3 @@
+Flask==2.2.2
+mysql-connector-python==8.0.33
+nacos-sdk-python==1.1.7

@@ -1,5 +1,5 @@
 {
-  "name": "node-nacos-demo",
+  "name": "node-service",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "express": "^4.21.2",
-    "nacos2": "^2.0.8"
+    "mysql2": "^3.12.0",
+    "nacos": "^2.6.0"
   }
 }
